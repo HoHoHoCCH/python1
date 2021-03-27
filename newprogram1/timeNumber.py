@@ -49,6 +49,7 @@ def game2ques1():
         answer = int(input("Input the answer!"))
         if answer == (tn1 + tn2 + tn3):
             print("Your Answer Was CORRECT. Good Job!")
+            # Why are we sleeping?
             time.sleep(1)
             print("Moving On To Next Question!")
             time.sleep(1)
@@ -57,6 +58,7 @@ def game2ques1():
         else:
             print("Wrong Answer")
             score = 0
+            # Why is this named tryagain123?
             tryagain123 = input("Try Again?")
             if tryagain123 == "yes":
                 game2ques1()
