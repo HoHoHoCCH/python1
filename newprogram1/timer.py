@@ -29,13 +29,19 @@ def start():
     # Why are you storing float(1)
     a = (float(1))
     # you defined this as 3 earlyer
+    #Sorry! In this variable, you can think of each number as a type.
+    #                                            -Ching Ho
     stop = "1"
     while True:
         # could we simplify this logic?
+        #I don't know how.
+        #        - Ching Ho
         if stop == "1":
             print(sec)
             sec = sec - a
             ## Could we get greater resolution here somehow?
+            ## What do you mean resolution?
+            ##     = Ching Ho
             time.sleep(1)
             if sec <= (float(0)):
                 sec = (float(0))
@@ -62,6 +68,8 @@ start()
 
 ## This is a very basic timer implementation. 
 ## Are there other ways could we do this so we're not locking a cpu thread the entire time?
+## What is a CPU
+#     - Ching Ho
 
 
 
