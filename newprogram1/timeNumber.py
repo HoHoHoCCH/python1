@@ -59,6 +59,8 @@ def game2ques1():
             print("Wrong Answer")
             score = 0
             # Why is this named tryagain123?
+            # oh yeah cause i don't know what name to use
+            #                   -Ching Ho
             tryagain123 = input("Try Again?")
             if tryagain123 == "yes":
                 game2ques1()
